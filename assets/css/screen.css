@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: Roboto;
     height: 100vh;
+    background-color: #FCFCFC;
 }
 
 #content{
@@ -13,6 +14,6 @@ paper-card{
     margin: 5px 0;
 }
 
-paper-toolbar.title{
+paper-toolbar .title, paper-toolbar .paper-tab{
     color: white;
 }

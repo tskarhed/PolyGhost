@@ -1,9 +1,9 @@
 #PolyGhost - A true material design theme for Ghost
-
+PolyGhost is a theme for GhostCMS based o Google's Material design. It is practically applied via Polymer, using web components.
 ##Planned development
-###iron-ajax element to connect with the Ghost API, to completely remove page reload.
-###Page transitions
-###Post transitions and animation
+**iron-ajax element to connect with the Ghost API, to completely remove page reload.**
+**Page transitions**
+**Post transitions and animation**
 
 ## Copyright & License
 
