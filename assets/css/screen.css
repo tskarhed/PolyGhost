@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: Roboto;
+    height: 100vh;
+}
+
+#content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+paper-card{
+    margin: 5px 0;
+}
+
+paper-toolbar.title{
+    color: white;
+}
