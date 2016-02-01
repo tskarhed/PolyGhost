@@ -1,0 +1,30 @@
+{
+  "name": "PolyGhost",
+  "version": "0.1",
+  "description": "Ghost theme based on Polymer",
+  "main": "default.hbs",
+  "keywords": [
+    "ghost",
+    "polymer"
+  ],
+  "authors": [
+    "Tobias Skarhed"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-button": "PolymerElements/paper-button#~1.0.11",
+    "paper-card": "PolymerElements/paper-card#~1.1.1",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.1.2",
+    "paper-material": "PolymerElements/paper-material#~1.0.6",
+    "paper-tabs": "PolymerElements/paper-tabs#~1.3.3",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.1.3",
+    "polymer": "Polymer/polymer#1.2.0"
+  }
+}

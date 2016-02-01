@@ -1,0 +1,6 @@
+    <paper-tabs class="bottom fit flex" selected="0">
+        {{#foreach navigation}}
+            <paper-tab class="nav-{{slug}}{{#if current}} nav-current{{/if}} flex-1" role="presentation">{{label}}</paper-tab>
+        {{/foreach}}
+    </paper-tabs>
+ 

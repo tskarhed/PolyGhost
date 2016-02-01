@@ -1,0 +1,22 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+<div class="extra-pagination inner">
+    {{pagination}}
+</div>
+
+{{! This is the post loop - each post will be output using this markup }}
+{{#foreach posts}}
+<paper-card heading="{{{title}}}" class="{{post_class}}" image="{{image absolute="true"}}">
+
+    <section class="card-content post-excerpt">
+        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
+    </section>
+    <div class="card-actions">
+<paper-button>
+<a href="{{url}}">Read</a>
+</paper-button>
+</div>
+</paper-card>
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}
