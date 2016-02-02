@@ -1,13 +1,16 @@
 #PolyGhost - A true material design theme for Ghost
-PolyGhost is a theme for GhostCMS based o Google's Material design. It is practically applied via Polymer, using web components.
+PolyGhost is a theme for GhostCMS based on Google's Material design. It is written with Google Polymer, a web component platform.
 ##Planned development
 **iron-ajax element to connect with the Ghost API, to completely remove page reload.**
+
 **Page transitions**
+
 **Post transitions and animation**
+
 
 ## Copyright & License
 
-Copyright (c) 2013-2016 Ghost Foundation - Released under the MIT License.
+Copyright (c) 2016 Tobias Skarhed - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -15,3 +18,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+
+Based on looslely on the Ghost standard theme, Casper. Using Google Polymer.
