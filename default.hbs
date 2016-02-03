@@ -13,6 +13,7 @@
     <link rel="import" href="/bower_components/paper-button/paper-button.html">
     <link rel="import" href="/bower_components/paper-styles/paper-styles.html">
     <link rel="import" href="/bower_components/paper-styles/default-theme.html">
+    <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
 
 
 
@@ -49,6 +50,14 @@
         color: white;
     }
             
+  paper-tab[link] a {
+    /* These mixins (from iron-flex-layout) center the link text. */
+    @apply(--layout-horizontal);
+    @apply(--layout-center-center);
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+  }
     </style>
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -58,10 +67,13 @@
 
 <body class="fullbleed layout vertical {{body_class}} nav-closed">
 <paper-header-panel mode="waterfall" class="flex">
-<paper-toolbar class="medium layout">
+<paper-toolbar>
 
     <div class="title"><h1>{{@blog.title}}</h1></div>
-    {{navigation}}
+   
+    </paper-toolbar>
+    <paper-toolbar>
+     {{navigation}}
     </paper-toolbar>
 
 

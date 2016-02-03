@@ -1,5 +1,5 @@
     {{#if @blog.navigation}}
-    <paper-tabs class="flex" selected="{{slug}}" attrForSelected="slug">
+    <paper-tabs class="flex bottom self-end" selected="{{slug}}" attrForSelected="slug">
         {{#foreach navigation}}
             <paper-tab link slug="{{slug}}" class="link nav-{{slug}}{{#if current}} nav-current{{/if}} flex-1" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></paper-tab>
         {{/foreach}}
