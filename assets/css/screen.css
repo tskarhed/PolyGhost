@@ -6,9 +6,12 @@ body{
 }
 
 #content{
-    width: 500px;
+    width: 40%;
     margin: 0 auto;
     max-width: 100%;
+    min-width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 paper-card{
