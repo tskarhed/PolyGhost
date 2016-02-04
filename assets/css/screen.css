@@ -8,8 +8,9 @@ body{
 #content{
     width: 40%;
     margin: 0 auto;
-    max-width: 100%;
+
     min-width: 500px;
+    max-width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
