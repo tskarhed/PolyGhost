@@ -2,6 +2,7 @@
 <html>
 <head>
     {{!Bower inludes}}
+        
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="/bower_components/polymer/polymer.html">
     <link rel="import" href="/bower_components/paper-tabs/paper-tab.html">
@@ -58,6 +59,9 @@
     text-decoration: none;
     height: 100%;
   }
+
+
+
     </style>
 
     {{! Ghost outputs important style and meta data with this tag }}
@@ -77,18 +81,18 @@
     </paper-toolbar>
 
 
-    <div class="site-wrapper">
-        <main id="content" class="content" role="main">
+
+        
         {{! Everything else gets inserted here }}
         {{{body}}}
-        </main>
-        <paper-toolbar class="site-footer clearfix">
+        
+
+    </paper-header-panel>
+            <paper-toolbar class="site-footer clearfix">
             <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
             <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
         </paper-toolbar>
 
-    </div>
-    </paper-header-panel>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

@@ -5,27 +5,20 @@
 
 {{! Everything inside the #post tags pulls data from the page }}
 {{#post}}
+<paper-header-panel mode="cover" class="flex fit center {{post_class}}">
+<paper-toolbar class="tall paper-header main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+<div class="bottom title"><h1>{{title}}</h1></div>
+</paper-toolbar>
 
-<header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
-    <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-        {{#if @blog.navigation}}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-        {{/if}}
-    </nav>
-</header>
 
-<main class="content" role="main">
-    <article class="{{post_class}}">
+    <paper-card heading="{{title}}" class="content ">
 
-        <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
-        </header>
 
-        <section class="post-content">
+        <section class="card-content post-content">
             {{content}}
         </section>
 
-    </article>
-</main>
+    </paper-card>
+
+</paper-header-panel>
 {{/post}}

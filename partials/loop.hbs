@@ -2,6 +2,8 @@
 
 
 {{! This is the post loop - each post will be output using this markup }}
+
+<main id="content" class="content">
 {{#foreach posts}}
 <paper-card heading="{{{title}}}" class="{{post_class}}" image="{{image absolute="true"}}">
 
@@ -15,5 +17,6 @@
 </div>
 </paper-card>
 {{/foreach}}
+</main>
 
 {{! Previous/next page links - displayed on every page }}
