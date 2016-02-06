@@ -4,38 +4,9 @@
     {{!Bower inludes}}
         
     <script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
-    <link rel="import" href="/bower_components/polymer/polymer.html">
-    <link rel="import" href="/bower_components/paper-tabs/paper-tab.html">
-    <link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
-    <link rel="import" href="/bower_components/paper-header-panel/paper-header-panel.html">
-    <link rel="import" href="/bower_components/paper-toolbar/paper-toolbar.html">
-     <link rel="import" href="/bower_components/paper-card/paper-card.html">
-        <link rel="import" href="/bower_components/paper-material/paper-material.html">
-    <link rel="import" href="/bower_components/paper-button/paper-button.html">
-    <link rel="import" href="/bower_components/paper-styles/paper-styles.html">
-    <link rel="import" href="/bower_components/paper-styles/default-theme.html">
-    <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout.html">
+    <link rel="import" href="/imports_vulcanized.html">
 
-
-
-
-    {{! Document Settings }}
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    {{! Page Meta }}
-    <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
-
-    {{! Styles'n'Scripts }}
-    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <style is="custom-style">
+        <style is="custom-style">
     :root{
         --primary-text-color: var(--dark-theme-text-color);
 
@@ -63,6 +34,26 @@
 
 
     </style>
+
+
+
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
