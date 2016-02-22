@@ -9,7 +9,7 @@
         <style is="custom-style">
     :root{
         --primary-text-color: var(--dark-theme-text-color);
-
+        --primar
     }
 
     a{
@@ -29,7 +29,41 @@
     color: #fff;
     text-decoration: none;
     height: 100%;
+
   }
+
+  paper-card{
+    margin: 5px 0;
+}
+
+
+.page paper-card, .post paper-card{
+    padding: 20px;
+}
+
+.page paper-card{
+    width: 840px;
+    max-width: 100%;
+    float: right;
+    margin: 5px 2% ;
+    margin-top: 100px;
+}
+
+.page paper-header-panel{
+    justify-content: center;
+}
+
+  .page>paper-toolbar{
+background-color:  #5c6bc0;
+
+background-position: center;
+background-size: cover;
+
+}
+
+paper-tab{
+    min-width: 200px;
+}
 
 
 
